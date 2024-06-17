@@ -66,26 +66,31 @@
 <?php
   if(isset($_POST["btnSignIn"])){
 
-        if(empty($_POST["userName"]) || empty($_POST["password"])){echo"<script>alert('Please Enter Data into Feilds');</script>";}
+        if(empty($_POST["userName"]) || empty($_POST["password"]))
+        {
+          echo"<script>alert('Please Enter Data into Feilds');</script>";
+        }
         else{
           $userName = $_POST["userName"];
           $password = $_POST["password"];
           
-          //* connection start=>
+          //! connection start=>
           $conn = mysqli_connect("localhost","chanuka","Chanuka@20021004");
 
-          //* connection data bas=>
+          //! connection data bas=>
           mysqli_select_db($conn,"");
 
-          //* perform queary=>
+          //! perform queary=>
           $query = "Select * From <table> where userName ='$userName' AND password = '$password'";
           $result = mysqli_query($conn, $query);
 
-          if(mysqli_fetch_all($result)>0){//
+          if(mysqli_fetch_array($result)>0){//
 
             if(isset($_POST["rememberMe"])){ //* set cookies-------------------------------------------------
               setcookie("UserName","$userName",time()+3600,"/","",0);
               setcookie("Password","$password",time()+3600,"/","",0);
+
+              //* start session-------------------------------------------------
               session_start();
               $_SESSION["UserName"] = $userName;
             }
@@ -93,7 +98,6 @@
           else{
             echo "UserName or Password wrong!";
           }
-          //* start session-------------------------------------------------
           
         }
   }

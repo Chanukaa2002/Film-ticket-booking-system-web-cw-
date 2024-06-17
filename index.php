@@ -17,3 +17,10 @@
   </head>
   <body class="body"></body>
 </html>
+
+      <?php
+        Session_start();
+        if(isset($_SESSION["UserName"])){
+          //* නැවිගේශන් බාර් එකේ සයින් ඉන් එකයි සයින් අප් එකයි අයින් වෙලා යූස dp එක පෙන්නන්න හදන්න ඕන!!
+        }
+      ?>
