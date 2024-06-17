@@ -1,0 +1,78 @@
+/**--------------------------------|Common to All|--------------------------------------**/
+.body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #5b548a, #00feba);
+}
+h1 {
+  font-family: "palatino linotype", palatino, serif;
+}
+/**--------------------------------|Index.html|--------------------------------------**/
+
+/**--------------------------------|signIn.php/signup.php|--------------------------------------**/
+#userName {
+  width: 30rem;
+  margin: 20px;
+}
+#password {
+  width: 30rem;
+  margin: 20px;
+}
+.forget-pass {
+  text-decoration: none;
+  color: #5b548a;
+}
+.create {
+  text-decoration: none;
+  color: #5b548a;
+}
+
+.forget-pass:hover {
+  color: #1e7dea;
+}
+.create:hover {
+  color: #1e7dea;
+}
+
+.userName {
+  display: flex;
+  flex-direction: row;
+}
+.password {
+  display: flex;
+  flex-direction: row;
+}
+.email {
+  display: flex;
+  flex-direction: row;
+}
+.name {
+  display: flex;
+  flex-direction: row;
+}
+.form-control {
+  margin-left: 10px;
+}
+
+.userImg {
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+}
+.pwImg {
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+}
+.nameImg {
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+}
+.emailImg {
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+}
+
+/**--------------------------------|forgotPassword.php|--------------------------------------**/
