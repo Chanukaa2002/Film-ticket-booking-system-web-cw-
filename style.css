@@ -2,7 +2,7 @@
 .body {
   margin: 0;
   padding: 0;
-  background: linear-gradient(135deg, #5b548a, #00feba);
+  background: linear-gradient(100deg, #1c1678, #7bc9ff);
 }
 h1 {
   font-family: "palatino linotype", palatino, serif;
@@ -73,6 +73,10 @@ h1 {
   width: 30px;
   height: 30px;
   margin-top: 10px;
+}
+
+.btn-signIn-signUp {
+  background-color: #06d001 !important;
 }
 
 /**--------------------------------|forgotPassword.php|--------------------------------------**/
