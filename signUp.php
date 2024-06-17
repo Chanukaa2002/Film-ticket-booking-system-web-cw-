@@ -63,7 +63,7 @@
           </div>
 
           <!-- Submit button -->
-          <button type="submit" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-lg btn-block">Sign in</button>
+          <button type="submit" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-lg btn-block btn-signIn-signUp">Sign Up</button>
         </form>
       </div>
     </div>

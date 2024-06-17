@@ -20,7 +20,7 @@
     <div class="row d-flex align-items-center justify-content-center h-100">
       <div class="col-md-8 col-lg-7 col-xl-6">
         <img id="genarateImg"
-          class="img-fluid " src="src/login.png" alt="Phone image">
+          class="img-fluid " src="src/login2.png" alt="Phone image">
       </div>
       <div class="col-md-7 col-lg-5 col-xl-5 offset-xl-1">
         <form>
@@ -52,7 +52,7 @@
           </div>
 
           <!-- Submit button -->
-          <button type="submit" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-lg btn-block" name="btnSignIn">Sign in</button>
+          <button type="submit" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-lg btn-block btn-signIn-signUp" name="btnSignIn">Sign in</button>
         </form>
       </div>
     </div>
