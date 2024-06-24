@@ -2,14 +2,16 @@
 .body {
   margin: 0;
   padding: 0;
-  background: linear-gradient(100deg, #1c1678, #7bc9ff);
+  background: linear-gradient(100deg, #ee5c22, #7bc9ff);
+}
+button {
+  border-radius: 30px;
 }
 h1 {
   font-family: "palatino linotype", palatino, serif;
 }
 /**--------------------------------|Index.html|--------------------------------------**/
-
-/**--------------------------------|signIn.php/signup.php|--------------------------------------**/
+--------------------------------|signIn.php/signup.php|--------------------------------------**/
 #userName {
   width: 30rem;
   margin: 20px;
@@ -22,14 +24,14 @@ h1 {
   text-decoration: none;
   color: #5b548a;
 }
+.forget-pass:hover {
+  color: #1e7dea;
+}
 .create {
   text-decoration: none;
   color: #5b548a;
 }
 
-.forget-pass:hover {
-  color: #1e7dea;
-}
 .create:hover {
   color: #1e7dea;
 }
