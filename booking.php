@@ -49,7 +49,7 @@
                 <div id="time-slots"></div>
             </div>
             <div class="col-8">
-
+                
             </div>
         </div>
     </div>
