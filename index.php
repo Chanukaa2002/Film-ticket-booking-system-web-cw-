@@ -32,79 +32,6 @@
             </div>
         </div>
     </div>
-        <!--|Movie List|
-    <div class="container">
-        <h1>Movies</h1>
-        <div class="row mt-5">
-            <div class="col-md-3">
-                <div class="card" style="width: 15rem;">
-                    <img class="card-img-top" src="src/img1.png" alt="Film 1">
-                    <div class="card-body">
-                        <h4 class="card-title">Film-1</h4>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="card" style="width: 15rem;">
-                    <img class="card-img-top" src="src/img1.png" alt="Film 1">
-                    <div class="card-body">
-                        <h4 class="card-title">Film-1</h4>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="card" style="width: 15rem;">
-                    <img class="card-img-top" src="src/img1.png" alt="Film 1">
-                    <div class="card-body">
-                        <h4 class="card-title">Film-1</h4>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="card" style="width: 15rem;">
-                    <img class="card-img-top" src="src/img1.png" alt="Film 1">
-                    <div class="card-body">
-                        <h4 class="card-title">Film-1</h4>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row mt-5">
-            <div class="col-md-3">
-                <div class="card" style="width: 15rem;">
-                    <img class="card-img-top" src="src/img1.png" alt="Film 1">
-                    <div class="card-body">
-                        <h4 class="card-title">Film-1</h4>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="card" style="width: 15rem;">
-                    <img class="card-img-top" src="src/img1.png" alt="Film 1">
-                    <div class="card-body">
-                        <h4 class="card-title">Film-1</h4>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="card" style="width: 15rem;">
-                    <img class="card-img-top" src="src/img1.png" alt="Film 1">
-                    <div class="card-body">
-                        <h4 class="card-title">Film-1</h4>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="card" style="width: 15rem;">
-                    <img class="card-img-top" src="src/img1.png" alt="Film 1">
-                    <div class="card-body">
-                        <h4 class="card-title">Film-1</h4>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    -->
        <!-- Topic Cards -->
     <div class="cards_landscape_wrap-2">
         <div class="container">
@@ -139,7 +66,7 @@
                     </a>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                    <a href="">
+                    <a href="filmInterface.php">
                         <div class="card-flyer">
                             <div class="text-box">
                                 <div class="image-box">
